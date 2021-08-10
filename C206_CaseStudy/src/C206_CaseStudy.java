@@ -1,7 +1,7 @@
 
 public class C206_CaseStudy {
 	
-	private static final int OPTION_QUIT = 6;
+	private static final int OPTION_QUIT = 4;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,11 +14,17 @@ public class C206_CaseStudy {
 		}
 	}
 	private static void menu() {
-		System.out.println("1. Customer");
-		System.out.println("2. Package");
-		System.out.println("3. Request for Quote");
-		System.out.println("4.Quotation");
-		System.out.println("5. Appointment");
+		C206_CaseStudy.setHeader("Renovation Ace");
+		System.out.println("1. View");
+		System.out.println("2. Add");
+		System.out.println("3. Delete");
+		System.out.println("4. Quit");
+	}
+	
+	private static void setHeader(String header) {
+		Helper.line(80, "-");
+		System.out.println(header);
+		Helper.line(80, "-");
 	}
 		
 }
