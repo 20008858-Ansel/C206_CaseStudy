@@ -16,7 +16,7 @@ public class C206_CaseStudy {
 	private static void menu() {
 		System.out.println("1. Customer");
 		System.out.println("2. Package");
-		System.out.println("3. Request for quote");
+		System.out.println("3. Request for Quote");
 		System.out.println("4.Quotation");
 		System.out.println("5. Appointment");
 	}
