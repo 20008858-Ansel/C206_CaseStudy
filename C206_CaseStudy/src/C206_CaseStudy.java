@@ -98,7 +98,16 @@ public class C206_CaseStudy {
 		String email = Helper.readString("Enter email > ");
 		String password = Helper.readString("Enter password > ");
 		String status = Helper.readString("Enter status > ");
+		
+		Customer cl = new Customer(name, role, email, password, status);
+		return cl;
 	}
+	
+	public static void addCustomer(ArrayList<Customer>customerList, Customer cl) {
+		customerList.add(cl);
+		System.out.println("Customer Added!");
+	}
+	
 	//================================= Option 3 Delete =============================================
 }
 
