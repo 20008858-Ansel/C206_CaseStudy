@@ -9,6 +9,11 @@ public class C206_CaseStudy {
 		
 		ArrayList<Customer> customerList = new ArrayList<Customer>();
 		
+		customerList.add(new Customer("James","Customer","james@1111","james123@gmail.com","New"));
+		customerList.add(new Customer("Karry", "Customer","karry@2222", "karry555@gmail.com","New"));
+		customerList.add(new Customer("Kally", "Customer", "kally@3333", "kally997@gmail.com", "Confirmed"));
+		customerList.add(new Customer("Cherry", "Customer", "cherry@4444", "cherry111@gmail.com", "Confirmed"));
+		
 		int option = 0;
 		
 		while (option != OPTION_QUIT) {
