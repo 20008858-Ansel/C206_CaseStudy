@@ -114,5 +114,17 @@ public class C206_CaseStudy {
 	}
 	
 	//================================= Option 3 Delete =============================================
+		public static void deleteCustomer(ArrayList<Customer> customerList, String name) {
+			for(int i = 0; i < customerList.size(); i++) {
+				String deletename = customerList.get(i).getName();
+				if (name.equalsIgnoreCase(deletename)) {
+					System.out.println("User "+ name + " deleted sucessfully!");
+					break;
+				}else {
+					System.out.println("Invalid name entered!");
+					
+				}
+			}
+		}
 }
 
